@@ -6,9 +6,9 @@ Useful resources for authors of OJEPN articles
 
 ### Latex
 
-- [LaTeX template](latex/template.tex)
-- [Style file required by template](latex/hevea.sty)
-- [Example image required by templare](latex/dut11.pdf)
+- Tex [template](latex/template.tex)
+- [Style](latex/hevea.sty) file required by template
+- [Example image](latex/dut11.pdf) required by template
 
 ### LibreOffice, Microsoft Word
 
