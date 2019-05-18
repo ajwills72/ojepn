@@ -6,7 +6,7 @@ Useful resources for authors of OJEPN articles
 
 ### Latex
 
-- Tex [template](latex/template.tex)
+- [Tex](latex/template.tex) template
 - [Style](latex/hevea.sty) file required by template
 - [Example image](latex/dut11.pdf) required by template
 
