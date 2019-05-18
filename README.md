@@ -12,4 +12,4 @@ Useful resources for authors of OJEPN articles
 
 ### LibreOffice, Microsoft Word
 
-- [ODT template](libreoffice/template.odt)
+- [ODT template](libreoffice/doctemplate.odt)
