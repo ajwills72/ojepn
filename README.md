@@ -16,4 +16,4 @@ Useful resources for authors of OJEPN articles
 
 ## Other resources
 
-- [Submission checklist](checklist.html) The checklist used by OJEPN for rapid review.
+- [Submission checklist](checklist.md) The checklist used by OJEPN for rapid review.
