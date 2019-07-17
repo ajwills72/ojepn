@@ -13,3 +13,7 @@ Useful resources for authors of OJEPN articles
 ### LibreOffice, Microsoft Word
 
 - [ODT template](libreoffice/doctemplate.odt)
+
+## Other resources
+
+- [Submission checklist](checklist.html) The checklist used by OJEPN for rapid review.
