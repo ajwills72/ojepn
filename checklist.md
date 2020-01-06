@@ -6,7 +6,7 @@ If you can address these points, we would welcome a resubmission.
 
 ## [  ] Methodological confound
 
-There is a problem with your methodology that leads to a potentially serious confound. This confound in your design, rather than a confound of theoretical interpretation i.e. it extends beyond the assumptions of any one specific theoretical account of your results. 
+There is a problem with your methodology that leads to a potentially serious confound. This is a confound in your design, rather than a confound of theoretical interpretation i.e. it extends beyond the assumptions of any one specific theoretical account of your results. 
 
 ## [ ] Analysis not reproducible
 
