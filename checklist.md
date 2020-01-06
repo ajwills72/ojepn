@@ -4,6 +4,10 @@ _This checklist is currently under development_.
 Sorry, your paper has been rejected for the following reasons. 
 If you can address these points, we would welcome a resubmission.
 
+## [  ] Methodological confound
+
+There is a problem with your methodology that leads to a potentially serious confound. This confound in your design, rather than a confound of theoretical interpretation i.e. it extends beyond the assumptions of any one specific theoretical account of your results. 
+
 ## [ ] Analysis not reproducible
 
 Either you have not committed to making your raw data available on publication of this manuscript (nor stated why this is not possible e.g. ethical reasons), or there is insufficient detail of your analysis pipeline to ensure reproducibility (consider making your analysis script publicly available).
