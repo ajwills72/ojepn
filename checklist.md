@@ -17,6 +17,12 @@ If you are not able to demonstrate this, consider resubmitting as an _Early Repo
 
 You have made a claim on the basis of the absence of an effect, but have used null-hypothesis significance testing to suport this claim. This is a fallacy. Use, for example, Bayesian analysis to show you have evidence of absence, rather than just absence of evidence.
 
+## [ ] Mismatch between statistics and verbal summaries
+
+The verbal summaries in your Results sections are at variance with what can be concluded from the statistics you report.
+
+For example, you might have said there was no evidence of a difference between two groups, yet reported a Bayes Factor that supports the presence of a difference.
+
 ## [ ] Manuscript too long
 
 OJEPN has a word limit of 4000 words; you have substantially exceeded this limit.
