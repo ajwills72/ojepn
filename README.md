@@ -19,3 +19,5 @@ Useful resources for authors of OJEPN articles
 - [Submission checklist](checklist.md) The checklist used by OJEPN for rapid review.
 
 - [Style guide](style.md) How to conform to the house style at OJEPN.
+
+- [Production process](process.md) Our pipeline from submission to publication
