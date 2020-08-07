@@ -38,7 +38,7 @@
 
 - When reporting any statistical method where there would have been more than one substantively different way to do it, report how you did it. For example, if calculating a Bayes Factor, what was your prior? Which software package did you use?
 
-- For NHST, consider reporting your alpha value at the beginning of your results. If you dod this, do not then report the individual p-values, which are largely meaningless beyond which side of your alpha level they appear.
+- For NHST, consider reporting your alpha value at the beginning of your results. If you do this, do not then report the individual p-values, which are largely meaningless beyond which side of your alpha level they appear.
 
 ## Figures
 
@@ -46,7 +46,7 @@
 
 - Don't produce figures that are mainly empty space (whatever colour that space is). It makes the main subject of the figure unnecessarily hard to see.
 
-## Citations and references
+## Citations 
 
 - To include text before or after a reference, use this format:
 
@@ -56,15 +56,29 @@
 
 	`\cite[before][and after]{Medin1988}`
 
-- Don't include DOIs.
+## References
 
 - When citing software, include the version number in the note field of your bib file e.g
 `note = {Version 0.4.2}`
 
 - In your .bib file:
 
+    - Every reference must have a DOI, unless no DOI for that reference exists.
+	
+	- Make sure the capitalization of fields (e.g. title, journal) is consistent with APA styling. You may need to used double-braces to achieve this in some cases e.g. `booktitle={{Handbook of Categorization in Cognitive Science}}`
+	
+	- You must format your DOI entry like this:
+	
+	`note = {\url{https://doi.org/10.46221/ojepn.2020.aa}}`
+	
+	In other words, use the `note` field, not e.g. a `doi` field. Include `\url`. Include `https://doi.org/` before the DOI code istelf. 
+
 	- DO separate initials of authors, i.e. `J. K. Kruschke` rather than `J.K. Kruschke`. The latter results in only the first initial being displayed in the reference section.
 
 	- DO NOT include 'a' etc. suffixes in the year, bibtex adds these for you. So, `year = {1996}` not `year = {1996a}`
 
 	- DO NOT include a reference unless you cite it (it's harder for us to locate and fix format errors if there are a lot of uncited references).
+	
+	- For the same reason, DO NOT include fields that are not used by the journal (e.g. abstract, keywords).
+	
+	- If the article is in a journal, and the journal has an issue number, include the issue number.
