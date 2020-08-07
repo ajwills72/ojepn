@@ -1,0 +1,10 @@
+*.aux
+*.bbl
+*.blg
+*.haux
+*.htoc
+*.image.out
+*.image.tex
+*.log
+*.out
+*~
