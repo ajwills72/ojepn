@@ -36,3 +36,24 @@ reviewers.
 1. PDF uploaded to ojepn.com. Landing page created. List of articles updated.
 
 1. Crossref entry finalized
+
+## Converting ODT to latex
+
+1. Start with template.tex (Note: this needs updating from a recent article)
+
+1. Convert ODT to TEX using pandoc (Linux command line: `pandoc ms.odt -o ms.tex`)
+
+1. Insert  title, authors, affilitations, short title, header, DOI, abstract, keywords into .tex file
+
+1. Copy and paste introduction
+
+1. If equations, reformat these using `\begin{equation}` for numbered equations and `$` math mode for in-text equations. The template does not support unicode, so use math mode for Greek symbols etc. Any vaguely complex equation will probably need to be recoded from scratch.
+
+1. Headings tend to be a bit screwed by pandoc, add manually.
+
+1. Ideally, authors should have provided figures as separate PDFs. If they haven't, you can export them from the ODT file (right click in LibreOffice Writer, "Edit with External Tool"), although the resolution will suffer a bit.
+
+1. Don't attempt to use bibtex for references. Instead, just cut and paste the references from the converted ODT, removing all the `\begin{quote}` and `\end{quote}` lines.
+
+
+
