@@ -53,7 +53,14 @@ reviewers.
 
 1. Ideally, authors should have provided figures as separate PDFs. If they haven't, you can export them from the ODT file (right click in LibreOffice Writer, "Edit with External Tool"), although the resolution will suffer a bit.
 
-1. Don't attempt to use bibtex for references. Instead, just cut and paste the references from the converted ODT, removing all the `\begin{quote}` and `\end{quote}` lines.
+1. Don't attempt to use bibtex for references for ODT documents, it's time consuming and unnecessary. Instead, just cut and paste the references from the converted ODT, removing all the `\begin{quote}` and `\end{quote}` lines.
 
+1. Largely speaking, the accuracy of citing and referencing is the responsibility of the author. If they're not providing DOIs, don't publish until they do. If you see an issue, fix it, but don't search exhaustively. Be suspicious if DOIs are provided for books, often these are incorrect (it is possible to provide a correct DOI for a book, but if they haven't just use the ISBN). 
+
+1. Spell check (using e.g. `ispell` in emacs)
+
+1. Set first page by editing `\setcounter{page}`
+
+1. Update page numbers in header `{\small \jhead, \jdate, pp.\ 14--21`
 
 
