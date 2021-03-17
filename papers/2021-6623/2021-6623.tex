@@ -45,9 +45,9 @@
 \renewenvironment{enumerate}{\tempthree\setlength{\itemsep}{0pt}}{\tempfour}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setcounter{page}{1} % start with first page
+\setcounter{page}{14} % start with first page
 
-\title{Representing uncertainty in the Rescorla-Wagner model: Blocking, the redundancy effect, and outcome base rate}
+\title{Representing uncertainty in the Rescorla-Wagner model: \\Blocking, the redundancy effect, and outcome base rate}
 
 \author{
 Stuart G. Spicer\thanks{School of Psychology, University of Plymouth, U.K. Email: stuart.spicer@plymouth.ac.uk}
@@ -74,7 +74,7 @@ Stuart G. Spicer\thanks{School of Psychology, University of Plymouth, U.K. Email
 %\begin{latexonly}
 \twocolumn[
 \vspace{-.3in}
-{\small \jhead, \jdate, pp.\ 14--XX \hfill \url{https://doi.org/10.46221/ojepn.2021.6623}}
+{\small \jhead, \jdate, pp.\ 14--21 \hfill \url{https://doi.org/10.46221/ojepn.2021.6623}}
 %\end{latexonly}
 
 \maketitle
@@ -262,22 +262,19 @@ considered further in the General Discussion.
 
 \subsection{Results from standard model implementations}
 
-The best fitting model was the one that produced the smallest error
-between the predicted and observed test ratings. This was assessed using
-the mean error for each of the six test cues. The adequacy of fit for
-each model was additionally assessed with the $R^2$ of
-the predicted versus observed ratings (where higher values indicate a
-better adequacy of fit). Please note that (unlike the figures) these
-values are on a scale of 0-1 throughout this paper, consistent with
-associative strength. Both the Bush and Mosteller (1951) model, and the
-Rescorla and Wagner (1972) model produced a mean error of 0.08 and an
-$R^2$ of 0.71. To put this latter figure in context, the
-best formal models of category learning produce $R^2$
-values exceeding .95 for standard results in the field, with models that
-are clearly and ordinally wrong still sometimes producing
-$R^2$ values exceeding 0.85 (Nosofsky et al., 1994). On
-this basis, both models provide quite poor accounts of this basic
-blocking experiment.
+The best fitting model was the one that produced the smallest error between the
+predicted and observed test ratings. This was assessed using the mean error for
+each of the six test cues. Please note that (unlike the figures) these values
+are on a scale of 0-1 throughout this paper, consistent with associative
+strength. The adequacy of fit for each model was additionally assessed with the
+$R^2$ of the predicted versus observed ratings (where higher values indicate a
+better adequacy of fit). Both the Bush and Mosteller (1951) model, and the
+Rescorla and Wagner (1972) model produced a mean error of 0.08 and an $R^2$ of
+0.71. To put this latter figure in context, the best formal models of category
+learning produce $R^2$ values exceeding .95 for standard results in the field,
+with models that are clearly and ordinally wrong still sometimes producing
+$R^2$ values exceeding 0.85 (Nosofsky et al., 1994). On this basis, both models
+provide quite poor accounts of this basic blocking experiment.
 
 \begin{figure}[t!]
 \includegraphics[width=\columnwidth]{fig1.jpg}
@@ -360,7 +357,7 @@ the observed data.}
 
 As predicted, the best fitting initial associative strengths were at an
 intermediate value for both models (0.45 for Bush-Mosteller and 0.43 for
-Rescola-Wagner). This finding is consistent with the idea that
+Rescorla-Wagner). This finding is consistent with the idea that
 participants assign intermediate ratings to cues that have an unknown
 causal status.
 
@@ -551,8 +548,8 @@ experimental variations (e.g. different types of control used for
 blocking), and more substantially different designs, might produce
 different model comparison results. It would also be useful to know
 whether other associative models could account for these results (e.g.
-Gershman, 2015; Kokkola et al., 2019; McLaren \& Mackintosh (2000,
-2002); Schmajuk et al., 1996; Wagner, 1981); with or without
+Gershman, 2015; Kokkola et al., 2019; McLaren \& Mackintosh, 2000,
+2002; Schmajuk et al., 1996; Wagner, 1981); with or without
 modifications to the initial associative strengths.
 
 \subsection{Extended test sets}
@@ -585,8 +582,8 @@ available, such as ALTSim (Thorwart et al. 2009). ALTSim does not allow
 for parameter space optimisation, but it does allow initial associative
 strengths to be set to values other than zero. The model implementations
 reported in the current paper used the free and open source package
-\emph{catlearn }(Wills et al., 2019), which is available to download in
-the open-source R environment (R Core Team, 2018). \emph{catlearn}
+\emph{catlearn }(Wills et al., 2020), which is available to download in
+the open-source R environment (R Core Team, 2021). \emph{catlearn}
 includes a number of model implementations, including Rescorla and
 Wagner (1972), Bush and Mosteller (1951), EXIT (Kruschke, 2001), and
 COVIS (Ashby et al., 1998). It is an extensible framework to which more
@@ -608,14 +605,12 @@ the redundancy effect.
 \textbf{SGS} (lead author): Co-contributor to the rationale, design of the
 experiments, and theoretical basis of the simulations. Programmed the
 simulations and experiments. Co-programmed the model implementations. Collected
-and analysed the data as part of his Ph.D.  Wrote up the simulations and
+and analysed the data.  Wrote up the simulations and
 experiments. \textbf{AJW}: Co-contributor to the rationale, design of the
 experiments, and theoretical basis of the simulations. Consulted on analysis
-and write up of simulations and experiments as Ph.D.  supervisor.
-\textbf{PMJ}: Contributed to rationale, interpretation and write up as
-Ph.D. supervisor.
-\textbf{CJM}: Contributed to interpretation and write up as
-co-author.
+and write up of simulations and experiments.
+\textbf{PMJ}: Contributed to rationale, interpretation and write up.
+\textbf{CJM}: Contributed to interpretation and write up.
 \textbf{LD}: Co-programmed the model implementations.
 
 \section*{References}
@@ -629,7 +624,7 @@ neuropsychological theory of multiple systems in category learning.
 
 Bouton, M. E. (2010).~\emph{\emph{The multiple forms of "context" in
 associative learning theory.}}~In B. Mesquita, L. F. Barrett, \& E. R.
-Smith (Eds.),~\emph{\emph{The mind in context}}~(p. 233--258). Guilford
+Smith (Eds.),~\emph{The mind in context}~(p. 233--258). Guilford
 Press. \url{http://doi.org/10.1101/lm.493707}
 
 Bush, R. R., \& Mosteller, F. (1951). A mathematical model for simple
@@ -647,7 +642,7 @@ inhibition.~\emph{Journal of Experimental Psychology: Animal Behavior
 Processes},~\emph{39}(3), 273. \url{https://doi.org/10.1037/a0032174}
 
 Gershman, S. J. (2015). A unifying probabilistic view of associative
-learning. \emph{PLoS Comput Biol}, \emph{11}(11).
+learning. \emph{PLoS Computational Biology}, \emph{11}(11).
 \protect\hypertarget{anchor-1}{}{}\url{https://doi.org/10.1371/journal.pcbi.1004567}
 
 Gluck, M. A., \& Bower, G. H. (1988). From conditioning to category
@@ -672,10 +667,10 @@ University Press.
 
 Kokkola, N. H., Mondragón, E., \& Alonso, E. (2019). A double error
 dynamic asymptote model of associative learning. \emph{Psychological
-review}, \emph{126}(4), 506. \url{https://doi.org/10.1101/210674d}
+Review}, \emph{126}(4), 506. \url{https://doi.org/10.1101/210674d}
 
 Kruschke, J. K. (2001). Toward a unified model of attention in
-associative learning. \emph{Journal of mathematical psychology},
+associative learning. \emph{Journal of Mathematical Psychology},
 \emph{45}(6), 812-863. \url{https://doi.org/10.1006/jmps.2000.1354}
 
 McLaren, I. P. L., \& Mackintosh, N. J. (2000). An elemental model of
@@ -685,7 +680,7 @@ associative learning: I. Latent inhibition and perceptual learning.
 
 McLaren, I. P. L., \& Mackintosh, N. J. (2002). Associative learning and
 elemental representation: II. Generalization and discrimination.
-\emph{Animal learning \& behavior}, \emph{30}(3), 177-200.
+\emph{Animal Learning \& Behavior}, \emph{30}(3), 177-200.
 \url{https://doi.org/10.3758/BF03192828}
 
 Miller, R. R., \& Matute, H. (1996). Biological significance in forward
@@ -695,52 +690,43 @@ Psychology: General}, \emph{125}(4), 370-386.
 \url{https://doi.org/10.1037/0096-3445.125.4.370}
 
 Miller, N. Y., \& Shettleworth, S. J. (2007). Learning about
-environmental geometry: An associative model. \emph{\emph{Journal of
-Experimental Psychology: Animal Behavior Processes, 33}}(3), 191--212.
+environmental geometry: An associative model. \emph{Journal of
+Experimental Psychology: Animal Behavior Processes, 33}(3), 191--212.
 \href{https://doi.org/10.1037/0097-7403.33.3.191}{https://doi.org/}\href{https://doi.org/10.1037/0097-7403.33.3.191}{10.1037/0097-7403.33.3.191}
 
 Mitchell, C. J., \& Lovibond, P. F. (2002). Backward and forward
 blocking in human electrodermal conditioning: Blocking requires an
-assumption of outcome additivity. \emph{The Quarterly Journal of
-Experimental Psychology Section B}, 55(4b), 311-329.
+assumption of outcome additivity. \emph{Quarterly Journal of
+Experimental Psychology, 55B}(4), 311-329.
 \url{https://doi.org/10.1080/02724990244000025}
-
 
 Nosofsky, R. M., Gluck, M. A., Palmeri, T. J., McKinley, S. C., \&
 Glauthier, P. (1994). Comparing modes of rule-based classification
 learning: A replication and extension of Shepard, Hovland, and Jenkins
-(1961). \emph{Memory \& cognition}, \emph{22}, 352-369.
+(1961). \emph{Memory \& Cognition}, \emph{22}, 352-369.
 
-Peirce, J. W. (2007). PsychoPy - Psychophysics software in Python.
-\emph{\emph{Journal of Neuroscience Methods,}
-}\textbf{\emph{\textbf{162}}\textbf{(1:2)}}, 8-13.
-\href{http://www.psychopy.org/}{\emph{www.psychopy.org}}. (Version
-1.90.3). \url{https://doi.org/10.1016/j.jneumeth.2006.11.017}
-
-R Core Team. (2018). \emph{R: A language and environment for statistical
+R Core Team. (2021). \emph{R: A language and environment for statistical
 computing}. \href{http://www.r-project.org/}{\emph{www.r-project.org}}.
-(Version 3.5.3)
+(Version 4.0.4)
 
 Rescorla, R. A., and Wagner, A. R. (1972). A theory of Pavlovian
 conditioning: Variations in the effectiveness of reinforcement and
 nonreinforcement. In A. H. Black \& W. F. Prokasy (Eds.),
 \emph{Classical conditioning II: Current theory and research }(pp.
-64-99). New York, NY: Appleton-Century-Crofts.
-\url{https://doi.org/10.1016/0023-9690(71)90002-6}
+64-99). New York, NY: Appleton-Century-Crofts.  ISBN: 0390718017.
 
 Schmajuk, N. A., Lam, Y.-W., \& Gray, J. A. (1996). Latent inhibition: A
-neural network approach. \emph{\emph{Journal of Experimental Psychology:
-Animal Behavior Processes, 22}}(3), 321--349.
+neural network approach. \emph{Journal of Experimental Psychology:
+Animal Behavior Processes, 22}(3), 321--349.
 \href{https://psycnet.apa.org/doi/10.1037/0097-7403.22.3.321}{https://doi.org/10.1037/0097-7403.22.3.321}
 
 Shanks, D. R. (1985). Forward and backward blocking in human contingency
-judgement. \emph{The Quarterly Journal of Experimental Psychology
-Section B}, 37(1b), 1-21.
+judgement. \emph{Quarterly Journal of Experimental Psychology, 37B}(1), 1-21.
 \url{https://doi.org/10.1080/14640748508402082}
 
 Spicer, S. G., Mitchell, C. J., Wills, A. J., Blake. K. L., and Jones,
 P. M. (under review). Theory protection: do humans protect existing
-associative links?. \emph{Journal of Experimental Psychology: Animal
+associative links? \emph{Journal of Experimental Psychology: Animal
 Learning and Cognition}.
 
 Thorwart, A., Schultheis, H., König, S. \& Lachnit, H. (2009). ALTSim: A
@@ -759,30 +745,28 @@ in human predictive learning. \emph{Quarterly Journal of Experimental
 Psychology}, \emph{72}(2), 222--237.
 
 Wagner, A. R. (1981). SOP: A model of automatic memory processing in
-animal behavior. \emph{Information processing in animals: Memory
-mechanisms}, \emph{85}, 5-47.
-\href{https://doi.org/10.1037/024459}{https://doi.org/10.1037/024459 }
+animal behavior. In N. E. Spear \& R.R. Miller. \emph{Information Processing in Animals: Memory
+Mechanisms} (pp. 5-47). ISBN: 9780898591576.
 
 Wills, A. J., \& Pothos, E. M. (2012). On the adequacy of current
 empirical evaluations of formal models of categorization.
-\emph{Psychological bulletin}, \emph{138}(1), 102-125.
+\emph{Psychological Bulletin}, \emph{138}(1), 102-125.
 \url{https://doi.org/10.1037/a0025715}
 
 Wills, A. J., O'Connell, G., Edmunds, C. E., \& Inkster, A. B. (2017).
-Progress in Modeling Through Distributed Collaboration: Concepts, Tools
-and Category-Learning Examples. \emph{In Psychology of Learning and
-Motivation} (Vol. 66, pp. 79-115). Academic Press.
-\url{https://doi.org/10.1016/bs.plm.2016.11.007}
+Progress in modeling through distributed collaboration: Concepts, tools
+and category-learning examples. \emph{Psychology of Learning and
+Motivation, 66}, 79-115. \url{https://doi.org/10.1016/bs.plm.2016.11.007}
 
 Wills, A. J., Dome, L., Edmunds C. E., Honke, G., Inkster, A. B.,
-Schlegelmilch, R., \& Spicer, S. G. (2019). catlearn: Formal
-Psychological Models of Categorization and Learning.
+Schlegelmilch, R., \& Spicer, S. G. (2020). \emph{catlearn: Formal
+Psychological Models of Categorization and Learning}.
 \url{https://CRAN.R-project.org/package=catlearn}. \emph{R package
-version 0.6.2.}
+version 0.8.}
 
-Zaksaite, G. (2017). The Redundancy Effect in Human Causal Learning:
-Attention, Uncertainty, And Inhibition\emph{ (Doctoral dissertation,
-University of Plymouth).}
+Zaksaite, G. (2017). \emph{The Redundancy Effect in Human Causal Learning:
+Attention, Uncertainty, And Inhibition}. Doctoral dissertation,
+University of Plymouth.
 
 Zaksaite, T., \& Jones, P. M. (2019). The redundancy effect is related
 to a lack of conditioned inhibition: Evidence from a task in which
