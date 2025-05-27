@@ -1,5 +1,3 @@
-# OJEPN
-
 The _Open Journal of Experimental Psychology and Neuroscience_, has now closed to new submissions. Papers already published are archived here in order to maintain CrossRef-based DOIs. 
 
 - [Editorial (2020)](index.php/browse-journal/8-ojepn/5-editorial)
